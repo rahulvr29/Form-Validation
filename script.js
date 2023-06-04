@@ -56,7 +56,7 @@ function validateInputs(){
     }
     else if(cpasswordVal!==passwordVal){
         success = false;
-        setError(cpassword,'Password does not match so enter the correct password.')
+        setError(cpassword,'Password does not match.')
     }
     else{
         setSuccess(cpassword)
