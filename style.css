@@ -27,29 +27,34 @@ h1{
   font-size: 20px;
   width: 90%;
 }
-.input_group{
+label{
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.input-group{
   display: flex;
   flex-direction: column ;
   margin-bottom: 15px ;
 }
-.input_group input{
+.input-group input{
   border-radius: 5px;
   font-size: 20px;
   margin-top: 5px;
   padding: 10px;
   border: 1px solid rgb(218, 128, 167);
 }
-.input_group input:focus{
+.input-group input:focus{
   outline: 0;
 }
-.error{
+.input.error{
   color: rgb(242, 18, 18);
   font-size: 16px;
   margin-top: 5px;
 }
-.input_group.success input{
+.input-group.success input{
 border-color: #0cc477 ;
 }
-.input_group.error input{
+.input-group.error input{
   border-color: rgb(206, 67, 67) ;
   }
